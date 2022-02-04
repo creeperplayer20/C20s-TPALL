@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/creeperplayer20/C20s-TPALL
+build-by-default: true
+branches:
+- main
+projects:
+  C20s-TPALL:
+    path: ""
+...
