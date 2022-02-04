@@ -9,3 +9,4 @@
 
 ### Features
 - [X] PM4 Support
+- [X] Fully customizable message
