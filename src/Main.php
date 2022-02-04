@@ -25,7 +25,7 @@ public function onCommand(CommandSender $sender,Command $cmd,string $label,array
 
     foreach ($this->getServer()->getOnlinePlayers() as $tpPlayer) {
 
-        $tpPlayer->sendMessage("[§6TPALL§f] §gteleporting every player on the server to you!");
+        $tpPlayer->sendMessage("[§6TpAll§r§f] " . $keyFromConfig = $this->getConfig()->get("message"));
         $tpPlayer->teleport($sender->getPosition());
 
 } return true;
