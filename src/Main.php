@@ -13,9 +13,9 @@ use pocketmine\player\Player;
 
 class Main extends PluginBase{
 
-public function onDisable() : void{
+public function onEnable() : void{
     
-    $this->getLogger()->info("[§aC20§r - §6TPALL§r] §4Plugin is disabled!");
+    $this->saveDefaultConfig();
         
 }
 
