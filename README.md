@@ -3,10 +3,14 @@
 # C20s TpAll
 
 ### Commands
-|**Command**|**Description**|**Permission**|
-|-----------|---------------|--------------|
-|/tpall     |Tpall command  |tpall.command |
+|**Command**|**Description**|**Permission**|**Default**|
+|-----------|---------------|--------------|-----------|
+|/tpall     |Tpall command  |tpall.command |OP         |
 
 ### Features
 - [X] PM4 Support
-- [X] Fully customizable message
+- [X] Fully Customizable
+
+### Image
+
+![tpall](https://user-images.githubusercontent.com/42560781/153167460-00374d12-2750-49d3-96a7-c44d286ccfdf.png)
