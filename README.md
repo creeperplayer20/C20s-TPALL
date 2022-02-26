@@ -1,6 +1,7 @@
 <img src="https://github.com/creeperplayer20/C20s-TPALL/blob/main/icon.png" alt="C20s TpAll logo" title="C20s TpAll" align="center">
 
 # C20s TpAll
+You can teleport every player on the server to you.
 
 ### Commands
 |**Command**|**Description**|**Permission**|**Default**|
