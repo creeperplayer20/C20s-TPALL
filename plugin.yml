@@ -1,15 +1,15 @@
 name: TpAll
-version: 0.0.1
+version: 0.0.2
 main: creeperplayer20\tpall\Main
 author: creeperplayer20
-api: 4.0.8
+api: 4.20.1
 src-namespace-prefix: creeperplayer20\tpall
 
 commands:
-    tpall:
-        description: "Teleports every player on the server to you"
-        usage: "/tpall"
-        permission: "tpall.command"
+  tpall:
+    description: "Teleport all online players to your current position."
+    usage: "/tpall"
+    permission: "tpall.command"
 permissions:
-    tpall.command:
-        default: op
+  tpall.command:
+    default: op

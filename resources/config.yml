@@ -1,3 +1,23 @@
 # § = color tag
+# {prefix} = represents the prefix
+# {seconds} = represents the seconds before teleportation
 
-message: "[§6TpAll§r§f] §gTeleporting all players to you"
+prefix: "§f[§6TpAll§r§f] "
+
+ui-title: "§6TpAll§r"
+
+teleport-before-message: "{seconds} §cleft until teleport§f!"
+teleport-after-message: "§gYou've been teleported§f!"
+
+teleport-after-issuer-message: "§cPlayers have been teleported§f!"
+
+# reason:
+reason-text: "§4====§r {prefix} §4====§r\n§4§k!!!§r§g Everyone on the server will be teleported§f!\n§4§k!!!§r§5 Reason§f: "
+reason-default: "§cIt's event time§f!"
+
+# number colors:
+no-three-color: "§a"
+no-two-color: "§e"
+no-one-color: "§c"
+no-zero-color: "§4"
+no-default-color: "§6"
