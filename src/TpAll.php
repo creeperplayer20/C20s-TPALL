@@ -15,6 +15,7 @@ class TpAll
     public $isTpAllRunning = false;
     private $playersList = [];
     private $prefix = "";
+    private $tpAllTask;
 
     function __construct()
     {
