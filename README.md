@@ -1,14 +1,14 @@
 <img src="https://github.com/creeperplayer20/C20s-TPALL/blob/main/icon.png" alt="C20s TpAll logo" title="C20s TpAll" align="center">
 
 # C20s TpAll
-* This plugin allows you to teleport all online players to your current position either instantly (legacy) or with a countdown (UI).
+* Powerful TpAll plugin that allows you to teleport all online players to your current position either instantly (legacy) or with a countdown (UI).
 
-### Command
-|**Command**|**Description**|**Permission**|**Default**|**Usage**|
+### 💻 Commands
+|**Command**|**Description**|**Permission**|**Default**|**UI**|
 |-----------|---------------|--------------|-----------|-------------|
-|/tpall     |Teleport all online players to your current position. |tpall.command |OP         |ui=true/false|
+|/tpall|Teleport all online players to your current position.|tpall.command|OP|true/false|
 
-### Features
+### ⭐ Features
 - [X] PM4 Support
 - [X] Fully Customizable
 - [x] Custom Reason Message + Default Reason
@@ -16,24 +16,29 @@
 - [x] Custom Timer
 - [X] Teleport Sounds (Countdown and Teleport)
 
-### Functionality
+### 🛡️ Functionality
 
 **UI Form**:
 * Includes countdown slider (10s to 300s).
 * Allows selection of countdown sound, which can be left empty.
 * Allows selection of teleport sound, which can also be left empty.
+* Option to select who to teleport players to.
 * Allows input of a reason for the teleport, either custom or the default reason from the config file.
 * Custom messages can be sent when the teleport is initiated and completed.
 
 **Legacy** (***no UI***):
 * Instantly teleports all players.
 * Sends a message notifying all players of the teleportation.
+* Configurable sound notification upon teleportation inside the config file.
 
-### Images
-![tpall-ui](https://user-images.githubusercontent.com/42560781/235326117-2fe45f31-2095-421b-9166-41eb99d0757d.png)
-![tpall-legacy](https://user-images.githubusercontent.com/42560781/153167460-00374d12-2750-49d3-96a7-c44d286ccfdf.png)
-![pc](https://user-images.githubusercontent.com/42560781/235325995-5ce27ff6-8373-4315-83a9-b2a577d57856.png)
-![mobile](https://user-images.githubusercontent.com/42560781/235326043-6948ae5a-5548-4cf5-ba4d-9ff4e93197cf.jpg)
+### 🖼️ Images
+![ui](https://user-images.githubusercontent.com/42560781/235523968-c0725e73-15d7-468c-9946-e409cb0f1715.gif)
 
-### Other
-> Users are welcome to provide suggestions and report any issues related to the plugin by submitting them here: [C20s-TpAll](https://github.com/creeperplayer20/C20s-TPALL/issues).
+![no-crash-on-leave](https://user-images.githubusercontent.com/42560781/235527866-203fdfbf-2eef-4b18-b0a9-566b2cb2beab.gif)
+
+![no-spam](https://user-images.githubusercontent.com/42560781/235529302-eefa68ad-1f46-41c2-85fe-78be514cc642.gif)
+
+![legacy](https://user-images.githubusercontent.com/42560781/235530000-40f55cca-3753-46b8-bf70-e426d1f1ae81.gif)
+
+### 🔮 Other
+> You are welcome to provide suggestions and report any issues related to the plugin by submitting them here [GitHub](https://github.com/creeperplayer20/C20s-TPALL/issues) or here [Discord](https://discord.gg/dmrBe8eUDJ).
