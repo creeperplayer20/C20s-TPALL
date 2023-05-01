@@ -23,5 +23,3 @@ class Sound {
         $player->getNetworkSession()->sendDataPacket($packet);
     }
 }
-
-?>
