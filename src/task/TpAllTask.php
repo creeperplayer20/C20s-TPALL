@@ -10,6 +10,7 @@ use pocketmine\scheduler\{ClosureTask, CancelTaskException, Task};
 
 class TpAllTask extends Task
 {
+    private $prefix = "";
     public function __construct()
     {
         $this->prefix = Main::getInstance()->getPrefix();

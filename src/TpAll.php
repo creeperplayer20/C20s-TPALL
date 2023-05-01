@@ -14,6 +14,7 @@ class TpAll
 {
     public $isTpAllRunning = false;
     private $playersList = [];
+    private $prefix = "";
 
     function __construct()
     {
@@ -67,6 +68,8 @@ class TpAll
 
     public function TpAllLegacy(Player $player)
     {
+        if(!Functions::areEnoughPlayersOnline($player, true))
+            return;
         foreach (Main::getInstance()->getServer()->getOnlinePlayers() as $tpPlayer) {
             Sound::PlaySound($tpPlayer, Functions::getTeleportSound(Functions::getConfigValue("legacy-teleport-sound")));
             if ($tpPlayer == $player) {

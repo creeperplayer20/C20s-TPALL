@@ -49,7 +49,7 @@ class Main extends PluginBase
                 $this->tpAll->TpAllUI($player);
                 return true;
             } else if (isset($args[0]) && $args[0] === "false") {
-                if (!Functions::areEnoughPlayersOnline($player, true) || $this->tpAll->isTpAllRunning($player))
+                if ($this->tpAll->isTpAllRunning($player))
                     return true;
                 $this->tpAll->TpAllLegacy($player);
                 return true;

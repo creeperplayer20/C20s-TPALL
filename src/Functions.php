@@ -119,6 +119,5 @@ class Functions
             $player->sendMessage(Self::getPrefix() . Self::getConfigValue("no-player-found-message"));
             return false;
         }
-        return false;
     }
 }
