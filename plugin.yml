@@ -9,7 +9,7 @@ commands:
   tpall:
     description: "Teleport all online players to your current position."
     usage: "/tpall"
-    permission: "tpall.command"
+    permission: "c20s-tpall.use"
 permissions:
-  tpall.command:
+  c20s-tpall.use:
     default: op
