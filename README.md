@@ -6,7 +6,7 @@
 ### 💻 Commands
 |**Command**|**Description**|**Permission**|**Default**|**UI**|
 |-----------|---------------|--------------|-----------|-------------|
-|/tpall|Teleport all online players to your current position.|tpall.command|OP|true/false|
+|/tpall|Teleport all online players to your current position.|c20s-tpall.use|OP|true/false|
 
 ### ⭐ Features
 - [X] PM4 Support
