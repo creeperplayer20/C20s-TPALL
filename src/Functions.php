@@ -82,7 +82,8 @@ class Functions
             5 => "note.snare",
             6 => "note.bd",
             7 => "note.harp",
-            8 => "portal.travel",
+            8 => "random.pop2",
+            9 => "portal.travel",
         ];
 
         if (is_int($sound))

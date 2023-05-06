@@ -8,8 +8,10 @@ use pocketmine\network\mcpe\protocol\PlaySoundPacket;
 use pocketmine\player\Player;
 use pocketmine\math\Vector3;
 
-class Sound {
-    public static function PlaySound(Player $player, $sound){
+class Sound 
+{
+    public static function PlaySound(Player $player, $sound)
+    {
         $packet = new PlaySoundPacket();
 
         $packet->x = $player->getPosition()->getX();

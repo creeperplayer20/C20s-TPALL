@@ -59,8 +59,8 @@ class TpAll
         });
         $tpAllForm->setTitle(Functions::getConfigValue("ui-title"));
         $tpAllForm->addSlider("Seconds", 10, 300);
-        $tpAllForm->addDropdown("Countdown sound:", ["Nothing", "random.levelup", "note.bass", "note.hat", "note.pling", "note.snare", "note.bd", "note.harp"]);
-        $tpAllForm->addDropdown("Teleport sound:", ["Nothing", "random.levelup", "note.bass", "note.hat", "note.pling", "note.snare", "note.bd", "note.harp", "portal.travel"]);
+        $tpAllForm->addDropdown("Countdown sound:", ["Nothing", "random.levelup", "note.bass", "note.hat", "note.pling", "note.snare", "note.bd", "note.harp", "random.pop2"]);
+        $tpAllForm->addDropdown("Teleport sound:", ["Nothing", "random.levelup", "note.bass", "note.hat", "note.pling", "note.snare", "note.bd", "note.harp", "random.pop2", "portal.travel"]);
         $tpAllForm->addDropdown("Teleport to:", $this->playersList[$player->getName()]);
         $tpAllForm->addInput("Reason:", Functions::getConfigValue("reason-default"));
 

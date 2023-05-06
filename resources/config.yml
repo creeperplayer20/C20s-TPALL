@@ -13,7 +13,7 @@ teleport-before-message: "{seconds} §cleft until teleport§f!"
 teleport-after-message: "§gYou've been teleported§f!"
 teleport-after-issuer-message: "§cPlayers have been teleported§f!"
 
-no-players-online-message: "§cThere are no players online§f!"
+no-players-online-message: "§cThere are no players online other than you§f!"
 no-player-found-message: "§cPlayer not found§f!"
 
 teleport-error-message: "§cAn error occurred while teleporting§f!"
