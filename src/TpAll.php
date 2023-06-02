@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace creeperplayer20\tpall;
 
-use creeperplayer20\tpall\jojoe77777\FormAPI\CustomForm;
+use Vecnavium\FormsUI\CustomForm;
 use creeperplayer20\tpall\{Sound, Main, Functions};
 use creeperplayer20\tpall\task\TpAllTask;
 
