@@ -9,7 +9,7 @@
 |/tpall|Teleport all online players to your current position.|c20s-tpall.use|OP|true/false|
 
 ### ⭐ Features
-- [X] PM4 Support
+- [X] PM5 Support
 - [X] Fully Customizable
 - [x] Custom Reason Message + Default Reason
 - [X] UI and Legacy (no UI)
