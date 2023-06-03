@@ -5,6 +5,3 @@ branches:
 projects:
   C20s-TPALL:
     path: ""
-    libs:
-    - src: Vecnavium/FormsUI/FormsUI
-      version: ^1.1.3
