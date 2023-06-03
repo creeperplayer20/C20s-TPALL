@@ -3,6 +3,7 @@ version: 0.0.2
 main: creeperplayer20\tpall\Main
 author: creeperplayer20
 api: 5.0.0
+src-namespace-prefix: creeperplayer20\tpall
 
 commands:
   tpall:
